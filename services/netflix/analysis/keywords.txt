@@ -1,0 +1,11 @@
+# Regexes (case-insensitive) used by scripts/find-ad-code.sh. String constants survive obfuscation.
+pause.?ad
+pausead
+PAUSE_AD
+adPause
+adsPlan|adsTier|ad_?supported|withAds
+adBreak|ad_break
+adEvent|adImpression|impression_?url
+creative
+displayAd|display_ad
+overlay.?ad|ad.?overlay

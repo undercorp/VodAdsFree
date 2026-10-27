@@ -1,0 +1,26 @@
+# Proprietary binaries never go in git: APKs and anything extracted from them.
+samples/**/*
+!samples/**/
+!samples/**/README.md
+!samples/**/.gitkeep
+extracted/**/*
+!extracted/README.md
+!extracted/.gitkeep
+
+# Downloaded tools and patched outputs
+tools/bin/
+out/
+*.apk
+*.apks
+*.apkm
+*.xapk
+*.keystore
+!scripts/**/*.keystore.example
+
+# Gradle / IDE
+.gradle/
+build/
+.kotlin/
+.idea/
+*.iml
+local.properties

@@ -1,0 +1,12 @@
+# Netflix <package> <versionName>  (analysed on YYYY-MM-DD, by <name>)
+#
+# Format: <descriptor> [= true|false]
+#   no value -> method returns early with void / false / 0 / null / empty list
+#   = false  -> boolean gate is forced off (preferred: the cleanest cut)
+#
+# 1. Eligibility gate: "should a pause ad be shown for this session?"
+#    found via: string "<log tag or JSON key>" in <class>, fires once per pause in Frida trace
+# Lxx/yy;->a()Z = false
+#
+# 2. (Optional, belt and braces) Pause-ad presenter "show" method
+# Lxx/zz;->b(Landroid/view/View;)V

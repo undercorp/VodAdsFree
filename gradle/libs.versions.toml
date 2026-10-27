@@ -1,0 +1,12 @@
+# Versions mirror upstream ReVanced Patches (v6.1.0) so the bundle loads in current ReVanced CLI / Manager.
+[versions]
+revanced-patcher = "22.0.0"
+# Tracking https://github.com/google/smali/issues/64.
+#noinspection GradleDependency
+smali = "3.0.8"
+agp = "8.2.2"
+
+[libraries]
+
+[plugins]
+android-library = { id = "com.android.library" }

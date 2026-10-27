@@ -1,0 +1,6 @@
+# HBO Max com.wbd.stream <versionName> [phone|firetv]  (analysed on YYYY-MM-DD, by <name>)
+#
+# Format: <descriptor> [= true|false]
+#
+# Why this method: <string anchors, call path, what the Frida trace showed>
+# Lxx/yy;->a(Lxx/zz;)Z = false

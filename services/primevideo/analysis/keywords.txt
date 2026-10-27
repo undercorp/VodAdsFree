@@ -1,0 +1,7 @@
+# Regexes (case-insensitive) used by scripts/find-ad-code.sh.
+# Prime Video is not obfuscated, so class names are the best anchor.
+Lcom/amazon/avod/media/ads/
+ServerInsertedAdBreakState
+AdBreakTrigger
+NO_MORE_ADS_SKIP_TRANSITION
+getPrimaryPlayer

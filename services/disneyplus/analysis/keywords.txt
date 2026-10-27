@@ -1,0 +1,9 @@
+# Regexes (case-insensitive) used by scripts/find-ad-code.sh.
+Lcom/dss/sdk/internal/media/Insertion;
+insertion
+interstitial
+adPod|ad_pod
+adSession|AdSession
+sgai|ssai
+beacon
+adBadge|ad_badge|adCountdown

@@ -1,0 +1,10 @@
+# Regexes (case-insensitive) used by scripts/find-ad-code.sh.
+adStrategy|ad_strategy|AdStrategy
+ssai|csai
+snap.?back
+adBreak|ad_break
+watched.?ad|adWatched|isAdPlaying
+seek.?(over|past)?.?ad.?break|ad.?break.?seek
+yospace|freewheel|googleima|com/google/ads/interactivemedia
+beacon|vmap|vast
+adSkip|skipAd|skippable

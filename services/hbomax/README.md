@@ -45,7 +45,7 @@ services/hbomax/scripts/patch-hbomax.sh samples/hbomax/com.wbd.stream-<ver>/merg
   services/hbomax/targets/com.wbd.stream-<ver>
 
 # 4. Install (works over adb connect for Fire TV) and run the checklists
-scripts/install-apk.sh out/merged-patched.apk --replace
+scripts/install-apk.sh out/merged-patched.apk --replace com.wbd.stream
 ```
 
 On Fire TV, decline the Amazon Appstore's offer to update the app afterwards, or it will replace

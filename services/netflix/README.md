@@ -41,7 +41,7 @@ VAF_PATCH="Disable pause ads" VAF_TARGETS=services/netflix/targets/com.netflix.m
   scripts/patch-with-cli.sh samples/netflix/com.netflix.mediaclient-<ver>/merged.apk
 
 # 4. Install and run the checklist in analysis/pause-ads.md
-scripts/install-apk.sh out/merged-patched.apk --replace
+scripts/install-apk.sh out/merged-patched.apk --replace com.netflix.mediaclient   # TV: com.netflix.ninja
 ```
 
 Passing the option by hand instead of `VAF_TARGETS`:

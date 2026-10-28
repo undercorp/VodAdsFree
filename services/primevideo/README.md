@@ -75,7 +75,7 @@ you seeked) without skipping. That's the quickest way to check a new version.
 ## 3. Install and test
 
 ```bash
-scripts/install-apk.sh out/<patched>.apk --replace    # uninstalls the store version first
+scripts/install-apk.sh out/<patched>.apk --replace com.amazon.avod.thirdpartyclient   # uninstalls the store version first
 adb logcat -s VodAdsFree:*
 ```
 

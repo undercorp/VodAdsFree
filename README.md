@@ -50,6 +50,9 @@ scripts/find-ad-code.sh primevideo extracted/primevideo/<ver>
 
 Then follow the service's README. The general method is in [docs/workflow.md](docs/workflow.md).
 
+**Android TV / Google TV / Fire TV over Wi-Fi:** step-by-step guide (in French) to pull an APK from
+the TV with remote ADB, patch it and reinstall it: [docs/guide-android-tv.md](docs/guide-android-tv.md).
+
 ## Build the patch bundle
 
 ReVanced publishes its patcher and Gradle plugin to GitHub Packages, which requires a token

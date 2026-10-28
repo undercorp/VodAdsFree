@@ -31,7 +31,7 @@ scripts/patch-with-cli.sh samples/disneyplus/com.disney.disneyplus-<ver>/merged.
   --exclusive -e "Disable ad pipeline"
 
 # 4. Install (removes the store version and its data first) and test
-scripts/install-apk.sh out/merged-patched.apk --replace
+scripts/install-apk.sh out/merged-patched.apk --replace com.disney.disneyplus
 ```
 
 The same APK works on Android TV and Fire TV: `adb connect <tv-ip>:5555` before step 4.
